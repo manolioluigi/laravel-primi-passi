@@ -16,11 +16,9 @@
                 <div class="col-12">
                     <h1></h1>
                     <ul>
-                        @php
-                            @foreach ($menu as $option)
-                                <li>{{ $option }}</li>
-                            @endforeach
-                        @endphp
+                       @foreach ($menu as $option)
+                            <li>{{ $option }}</li>
+                       @endforeach
                     </ul>
                 </div>
             </div>
