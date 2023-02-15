@@ -22,5 +22,5 @@ Route::get('/', function () {
         'menu4' => 'Prodotti'
     ];
 
-    return view('home', $menu);
+    return view('home', ['menu' => $menu]);
 });
